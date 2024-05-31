@@ -12,3 +12,5 @@ Runes, at inception, utilize 14 character token tickers where the bullet symbol 
 Over time, the 14 character requirement will decay to lower limits, but that's a topic that doesn't need to be detailed within this brief.
 
 These tokens are attached to discrete UTXOs which are used as the token layer and transferred around representing ownership of the Rune supply.
+
+Runes have the advantage of recursively pointing to previously minted Ordinal Inscriptions to visually complement the token.
