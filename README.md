@@ -37,7 +37,8 @@ In 2023, Joe Looney brought the Fair Mint model to Counterparty by setting-up a 
 
 ## Glyphs: The Proposal
 
-The Deployer mints a Bitcoin Stamp on a numeric asset. Let's say: A1717171717171717171 which contains the following base64-encoded image: <img src="https://stampchain.io/stamps/0dd5fb27837c8eff55321cecebfbddeb0a2f3136a4f82086568f4b0a0b8a0ed9.gif" align="bottom">
+The Deployer mints a Bitcoin Stamp on a numeric asset. Let's say: A1717171717171717171 which contains the following base64-encoded image:
+<img src="https://stampchain.io/stamps/0dd5fb27837c8eff55321cecebfbddeb0a2f3136a4f82086568f4b0a0b8a0ed9.gif">
 
 The Deployer then issues a sub-asset on the numeric: A1717171717171717171.THE.KEY.TO.EVERYTHING
 
@@ -45,4 +46,4 @@ The supply of the sub-asset can then be sent to a dispenser opened on a known bu
 
 Buyers can then "mint" the token by buying them from the dispenser. Holders can then, optionally, attach/detach the tokens to discrete UTXOs and sell the tokens using PSBT/Atomic Swap. They also have the option to re-sell the tokens in dispensers which saves having to split/attach to UTXOs (a common gripe about Runes).
 
-Glyphs-aware wallets/explorers will understand the relationship between the "Glyph" and the root numeric asset that its descended from and render the base64 art in some way (<img src="https://stampchain.io/stamps/0dd5fb27837c8eff55321cecebfbddeb0a2f3136a4f82086568f4b0a0b8a0ed9.gif">) in relation to the token. Glyphs-aware wallets/explorers can also suppress the numeric asset within the string itself so that A1717171717171717171.THE.KEY.TO.EVERYTHING appears as simply THE.KEY.TO.EVERYTHING. In fact, Glyphs-aware wallets/explorers can even substitute (•) for (.) in the string so that "THE.KEY.TO.EVERYTHING" appears as "THE•KEY•TO•EVERYTHING". In this manner, we can perfectly replicate the Runes "aesthetic".
+Glyphs-aware wallets/explorers will understand the relationship between the "Glyph" and the root numeric asset that its descended from and render the base64 art in some way in relation to the token. Glyphs-aware wallets/explorers can also suppress the numeric asset within the string itself so that A1717171717171717171.THE.KEY.TO.EVERYTHING appears as simply THE.KEY.TO.EVERYTHING. In fact, Glyphs-aware wallets/explorers can even substitute (•) for (.) in the string so that "THE.KEY.TO.EVERYTHING" appears as "THE•KEY•TO•EVERYTHING". In this manner, we can perfectly replicate the Runes "aesthetic".
