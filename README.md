@@ -37,7 +37,7 @@ In 2023, Joe Looney brought the Fair Mint model to Counterparty by setting-up a 
 
 ## Glyphs: The Proposal
 
-The Deployer mints a Bitcoin Stamp on a numeric asset. Let's say: A1717171717171717171 which contains the following base64-encoded image:<br>
+The Deployer mints a Bitcoin Stamp on a numeric asset. Let's say: A1717171717171717171 which contains the following base64-encoded image:<br><br>
 <img src="https://stampchain.io/stamps/0dd5fb27837c8eff55321cecebfbddeb0a2f3136a4f82086568f4b0a0b8a0ed9.gif">
 
 The Deployer then issues a sub-asset on the numeric: A1717171717171717171.THE.KEY.TO.EVERYTHING
