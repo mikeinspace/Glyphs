@@ -51,3 +51,9 @@ Glyphs-aware wallets/explorers will understand the relationship between the "Gly
 ## The Provable Burn Address
 
 While the XCP-20 protocol allowed deployers to choose their own burn address and encouraged to use a vanitygen, for user confidence a singular vanity burn address should be chosen for Glyphs. This also will allow a clean way for indexers to determine what is (or isn't) a Glyph based on intent. We propose: TBD. See: https://gobittest.appspot.com/ProofOfBurn
+
+## Unknowns that might impact the deployment of Glyphs in its current proposed form
+
+- Timeline of PSBT/Atomic swap readiness on Counterparty
+- Liklihood of having sub-asset issuance be possible on numerics
+- Changes in Dispenser behaviour that may prevent opening dispensers on burn addresses (no ownership)
