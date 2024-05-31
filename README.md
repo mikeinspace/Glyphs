@@ -29,9 +29,9 @@ Future planned enhancements to Counterparty along with some specific proposals c
 
 ## The origination of the Fair Mint Model
 
-Fair Mint, is a BRC-20 innovation which has been adopted by many fungible token protocols in the last year including SRC-20 on Bitcoin Stamps. It's a method where users are able to mint "for free" by paying only a miner fee but not directly enriching the deployer of the token. This is considered to be "fair" and may also have a favorable structure from a legal stand-point as no direct sales are occuring.
+Fair Mint likely originated with Counterparty itself where users sent Bitcoin to a burn address and received XCP in return. More recently, BRC-20 introduced a variant of the Fair Mint model and adopted by many fungible token protocols in the last year including SRC-20 on Bitcoin Stamps. It's a method where users are able to mint "for free" by paying only a miner fee but not directly enriching the deployer of the token. This is considered to be "fair" and may also have a favorable structure from a legal stand-point as no direct sales are occuring.
 
-## The Fair Mint model brought to Counterpary
+## The XCP-20 Fair Mint model
 
 In 2023, Joe Looney brought the Fair Mint model to Counterparty by setting-up a dispenser on a burn address and called it XCP-20 as a tongue in cheek reference to BRC-20. Buyers would send Bitcoin to the burn address and receive tokens in return. In this way, tokens got distributed, but the deployer was not directly enriched.
 
