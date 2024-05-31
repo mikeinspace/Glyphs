@@ -55,5 +55,5 @@ While the XCP-20 protocol allowed deployers to choose their own burn address and
 ## Unknowns that might impact the deployment of Glyphs in its current proposed form
 
 - Timeline of PSBT/Atomic swap readiness on Counterparty
-- Liklihood of having sub-asset issuance be possible on numerics
+- Likelihood of having sub-asset issuance be possible on numerics
 - Changes in Dispenser behaviour that may prevent opening dispensers on burn addresses (no ownership)
