@@ -33,7 +33,7 @@ Fair Mint likely originated with Counterparty itself where users sent Bitcoin to
 
 ## The XCP-20 Fair Mint model
 
-In 2023, Joe Looney introduced XCP-20's Fair Mint model by setting-up a dispenser on a burn address and called it "XCP-20" as a tongue in cheek reference to BRC-20. Buyers, largely unaware that Counterparty already existed and this was not *new* in any way, sent massive amounts of Bitcoin to the burn address and received tokens in return. In this way, tokens got distributed, but the deployer was not directly enriched. The Bitcoin was burned.
+In 2023, Joe Looney introduced XCP-20's Fair Mint model (https://xcp20.wtf/) by setting-up a dispenser on a burn address and called it "XCP-20" as a tongue in cheek reference to BRC-20. Buyers, largely unaware that Counterparty already existed and this was not *new* in any way, sent massive amounts of Bitcoin to the burn address and received tokens in return. In this way, tokens got distributed, but the deployer was not directly enriched. The Bitcoin was burned.
 
 ## Glyphs: The Proposal
 
