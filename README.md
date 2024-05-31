@@ -47,3 +47,7 @@ The supply of the sub-asset can then be sent to a dispenser opened on a known bu
 Buyers can then "mint" the token by buying them from the dispenser. Holders can then, optionally, attach/detach the tokens to discrete UTXOs and sell the tokens using PSBT/Atomic Swap. They also have the option to re-sell the tokens in dispensers which saves having to split/attach to UTXOs (a common gripe about Runes).
 
 Glyphs-aware wallets/explorers will understand the relationship between the "Glyph" and the root numeric asset that its descended from and render the base64 art in some way in relation to the token. Glyphs-aware wallets/explorers can also suppress the numeric asset within the string itself so that <code>A1717171717171717171.THE.KEY.TO.EVERYTHING</code> appears as simply <code>THE.KEY.TO.EVERYTHING</code>. In fact, Glyphs-aware wallets/explorers can even substitute (•) for (.) in the string so that <code>THE.KEY.TO.EVERYTHING</code> appears as <code>THE•KEY•TO•EVERYTHING</code>. In this manner, we can perfectly replicate the Runes "aesthetic".
+
+## The Provable Burn Address
+
+While the XCP-20 protocol allowed deployers to choose their own burn address and encouraged to use a vanitygen, for user confidence a singular vanity burn address should be chosen for Glyphs. This also will allow a clean way for indexers to determine what is (or isn't) a Glyph based on intent. We propose: 
