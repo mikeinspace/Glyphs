@@ -33,7 +33,7 @@ Fair Mint likely originated with Counterparty itself where users sent Bitcoin to
 
 ## The XCP-20 Fair Mint model
 
-In 2023, Joe Looney brought the Fair Mint model to Counterparty by setting-up a dispenser on a burn address and called it XCP-20 as a tongue in cheek reference to BRC-20. Buyers would send Bitcoin to the burn address and receive tokens in return. In this way, tokens got distributed, but the deployer was not directly enriched.
+In 2023, Joe Looney introduced XCP-20's Fair Mint model by setting-up a dispenser on a burn address and called it "XCP-20" as a tongue in cheek reference to BRC-20. Buyers, largely unaware that Counterparty already existed and this was not *new* in any way, sent massive amounts of Bitcoin to the burn address and received tokens in return. In this way, tokens got distributed, but the deployer was not directly enriched. The Bitcoin was burned.
 
 ## Glyphs: The Proposal
 
@@ -42,7 +42,7 @@ The Deployer mints a Bitcoin Stamp on a numeric asset. Let's say: <code>A1717171
 
 The Deployer then issues a sub-asset on the numeric: <code>A1717171717171717171.THE.KEY.TO.EVERYTHING</code>
 
-The supply of the sub-asset can then be sent to a dispenser opened on a known burn address (more of that later). 
+The supply of the sub-asset can then be sent to a dispenser opened on a known burn address (more on that later). 
 
 Buyers can then "mint" the token by buying them from the dispenser. Holders can then, optionally, attach/detach the tokens to discrete UTXOs and sell the tokens using PSBT/Atomic Swap. They also have the option to re-sell the tokens in dispensers which saves having to split/attach to UTXOs (a common gripe about Runes).
 
