@@ -7,7 +7,7 @@ It occurred to me (and many others) that Runes' OP_RETURN implementation seems v
 
 ## The current Runes implementation
 
-Runes, at inception, utilize 14 character token tickers where the bullet symbol (•) can be used to delineate between specific words. Example: [code]DOG•GO•TO•THE•MOON[/code]
+Runes, at inception, utilize 14 character token tickers where the bullet symbol (•) can be used to delineate between specific words. Example: <code>DOG•GO•TO•THE•MOON</code>
 
 Over time, the 14 character requirement will decay to lower limits, but that's a topic that doesn't need to be detailed within this brief.
 
