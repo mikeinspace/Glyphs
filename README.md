@@ -35,25 +35,18 @@ Fair Mint likely originated with Counterparty itself where users sent Bitcoin to
 
 In 2023, Joe Looney introduced XCP-20's Fair Mint model (https://xcp20.wtf/) by setting-up a dispenser on a burn address and called it "XCP-20" as a tongue in cheek reference to BRC-20. Buyers, largely unaware that Counterparty already existed and this was not *new* in any way, sent massive amounts of Bitcoin to the burn address and received tokens in return. In this way, tokens got distributed, but the deployer was not directly enriched. The Bitcoin was burned.
 
+## The all-new Counterparty Auto Mint functionality (name is TBD)
+
+As non-source address dispensers will no longer be possible as of Counterparty Core 10.3, as solution has been proposed to bring a "Fair Mint" model to Counterparty natively. See: https://github.com/CounterpartyXCP/counterparty-core/issues/1843
+
 ## Glyphs: The Proposal
 
 The Deployer mints a Bitcoin Stamp on a numeric asset. Let's say: <code>A1717171717171717171</code> which contains the following base64-encoded image:<br><br>
 <img src="https://stampchain.io/stamps/0dd5fb27837c8eff55321cecebfbddeb0a2f3136a4f82086568f4b0a0b8a0ed9.gif">
 
-The Deployer then issues a sub-asset on the numeric: <code>A1717171717171717171.THE.KEY.TO.EVERYTHING</code>
+The Deployer then issues a sub-asset on the numeric: <code>A1717171717171717171.A1717171717171717171</code> and opens an Auto Mint of the supply.
 
-The supply of the sub-asset can then be sent to a dispenser opened on a known burn address (more on that later). 
+Buyers can then "mint" the token through the Auto Mint. Holders can then, optionally, attach/detach the tokens to discrete UTXOs and sell the tokens using PSBT/Atomic Swap. They also have the option to re-sell the tokens in dispensers which saves having to split/attach to UTXOs (a common gripe about Runes).
 
-Buyers can then "mint" the token by buying them from the dispenser. Holders can then, optionally, attach/detach the tokens to discrete UTXOs and sell the tokens using PSBT/Atomic Swap. They also have the option to re-sell the tokens in dispensers which saves having to split/attach to UTXOs (a common gripe about Runes).
+Glyphs-aware wallets/explorers will understand the relationship between the "Glyph" and the root numeric asset that its descended from and render the base64 art in some way in relation to the token.
 
-Glyphs-aware wallets/explorers will understand the relationship between the "Glyph" and the root numeric asset that its descended from and render the base64 art in some way in relation to the token. Glyphs-aware wallets/explorers can also suppress the numeric asset within the string itself so that <code>A1717171717171717171.THE.KEY.TO.EVERYTHING</code> appears as simply <code>THE.KEY.TO.EVERYTHING</code>. In fact, Glyphs-aware wallets/explorers can even substitute (•) for (.) in the string so that <code>THE.KEY.TO.EVERYTHING</code> appears as <code>THE•KEY•TO•EVERYTHING</code>. In this manner, we can perfectly replicate the Runes "aesthetic".
-
-## The Provable Burn Address
-
-While the XCP-20 protocol allowed deployers to choose their own burn address and encouraged to use a vanitygen, for user confidence a singular vanity burn address should be chosen for Glyphs. This also will allow a clean way for indexers to determine what is (or isn't) a Glyph based on intent. We propose: TBD. See: https://gobittest.appspot.com/ProofOfBurn
-
-## Unknowns that might impact the deployment of Glyphs in its current proposed form
-
-- Timeline of PSBT/Atomic swap readiness on Counterparty
-- Likelihood of having sub-asset issuance be possible on numerics
-- Changes in Dispenser behaviour that may prevent opening dispensers on burn addresses (no ownership)
