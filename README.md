@@ -48,7 +48,7 @@ Source: https://stampchain.io/asset.html?asset=A1717171717171717171
 
 The Deployer then issues a sub-asset on the numeric: <code>A1717171717171717171.A1717171717171717171</code> and opens an Auto Mint of the supply.
 
-Relevant meta-data (ticker, supply, etc...) will be added through an onchain JSON envelope using OLGA-encoding. In this way, <code>A1717171717171717171.A1717171717171717171</code> can be represented by something like <code>THE•KEY•TO•EVERYTHING <img src="https://stampchain.io/stamps/0dd5fb27837c8eff55321cecebfbddeb0a2f3136a4f82086568f4b0a0b8a0ed9.gif"></code> in wallets and explorers.
+Relevant meta-data (ticker, supply, etc...) will be added through an onchain JSON envelope using OLGA-encoding. In this way, <code>A1717171717171717171.A1717171717171717171</code> can be represented by something like <code>THE•KEY•TO•EVERYTHING</code> in wallets and explorers.
 
 Buyers can then "mint" the token through the Auto Mint. Holders can then, optionally, attach/detach the tokens to discrete UTXOs and sell the tokens using PSBT/Atomic Swap. They also have the option to re-sell the tokens in dispensers which saves having to split/attach to UTXOs (a common gripe about Runes).
 
