@@ -56,3 +56,4 @@ Glyphs-aware wallets/explorers will understand the relationship between the "Gly
 
 <img src="https://i.imgur.com/hxmllWK.jpeg" width="200">   <img src="https://i.imgur.com/VUQuKqD.jpeg" width="200">   <img src="https://i.imgur.com/mriUIJM.jpeg" width="200">
 
+## Glyphs are NOT Bitcoin Stamps however they are Bitcoin Stamps-adjacent
