@@ -56,4 +56,6 @@ Glyphs-aware wallets/explorers will understand the relationship between the "Gly
 
 <img src="https://i.imgur.com/hxmllWK.jpeg" width="200">   <img src="https://i.imgur.com/VUQuKqD.jpeg" width="200">   <img src="https://i.imgur.com/mriUIJM.jpeg" width="200">
 
-## Glyphs are NOT Bitcoin Stamps however they are Bitcoin Stamps-adjacent
+## Glyphs are NOT Bitcoin Stamps
+
+Glyphs, at the time of this writing, as not intended to be Bitcoin Stamps. However, they are very much "Bitcoin Stamps-adjacent" in the same way that Runes are "Ordinals-adjacent". What this means from a implementation perspective is that Glyphs will (hopefully) be supported within the Bitcoin Stamps ecosystem (integrated into wallets and explorers) and inherit the artwork and provenance of their linked ancestor, but they would not be assigned canonical Bitcoin Stamp numbers. They would have their own numbering scheme, starting at 0, and likely activated at a designated block height.
