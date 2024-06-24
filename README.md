@@ -41,14 +41,14 @@ As non-source address dispensers will no longer be possible as of Counterparty C
 
 ## Glyphs: The Proposal
 
-The Deployer mints a Bitcoin Stamp on a numeric asset. Let's say: <code>A1717171717171717171</code> which contains the following base64-encoded image:<br><br>
-<img src="https://stampchain.io/stamps/0dd5fb27837c8eff55321cecebfbddeb0a2f3136a4f82086568f4b0a0b8a0ed9.gif">
+The Deployer mints a Bitcoin Stamp on a numeric asset. Let's say: <code>A5433937813514022010</code> which contains the following base64-encoded image:<br><br>
+<img src="https://stampchain.io/stamps/88fab306902f27f2a2c5aabf8983f0ef1f4135c20c0cbf494546a611bc2692c6.png">
 
-Source: https://stampchain.io/asset.html?asset=A1717171717171717171
+Source: https://stampchain.io/asset.html?asset=A5433937813514022010
 
-The Deployer then issues a sub-asset on the numeric: <code>A1717171717171717171.A1717171717171717171</code> and opens an Auto Mint of the supply.
+The Deployer then issues a sub-asset on the numeric: <code>A5433937813514022010.A5433937813514022010</code> and opens an Auto Mint of the supply.
 
-Relevant meta-data (ticker, supply, etc...) will be added through an onchain JSON envelope using OLGA-encoding. In this way, <code>A1717171717171717171.A1717171717171717171</code> can be represented by something like <code>THE•KEY•TO•EVERYTHING</code> in wallets and explorers.
+Relevant meta-data (ticker, supply, etc...) will be added through an onchain JSON envelope using OLGA-encoding. In this way, <code>A5433937813514022010.A5433937813514022010</code> can be represented by something like <code>JOIN•THE•FLOCK</code> in wallets and explorers.
 
 Buyers can then "mint" the token through the Auto Mint. Holders can then, optionally, attach/detach the tokens to discrete UTXOs and sell the tokens using PSBT/Atomic Swap. They also have the option to re-sell the tokens in dispensers which saves having to split/attach to UTXOs (a common gripe about Runes).
 
