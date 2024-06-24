@@ -46,6 +46,8 @@ The Deployer mints a Bitcoin Stamp on a numeric asset. Let's say: <code>A1717171
 
 The Deployer then issues a sub-asset on the numeric: <code>A1717171717171717171.A1717171717171717171</code> and opens an Auto Mint of the supply.
 
+Relevant meta-data (ticker, supply, etc...) will be added through an onchain JSON envelope using OLGA-encoding.
+
 Buyers can then "mint" the token through the Auto Mint. Holders can then, optionally, attach/detach the tokens to discrete UTXOs and sell the tokens using PSBT/Atomic Swap. They also have the option to re-sell the tokens in dispensers which saves having to split/attach to UTXOs (a common gripe about Runes).
 
 Glyphs-aware wallets/explorers will understand the relationship between the "Glyph" and the root numeric asset that its descended from and render the base64 art in some way in relation to the token.
