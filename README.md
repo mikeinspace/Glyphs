@@ -54,5 +54,5 @@ Buyers can then "mint" the token through the Auto Mint. Holders can then, option
 
 Glyphs-aware wallets/explorers will understand the relationship between the "Glyph" and the root numeric asset that its descended from and render the base64 art in a standardized container using HTML and recursion to the ancestory Stamp. An early mock-up of the container design can be found below.<br><br>
 
-<img src="https://i.imgur.com/hxmllWK.jpeg">
+<img src="https://i.imgur.com/hxmllWK.jpeg" width="100"><img src="https://i.imgur.com/VUQuKqD.jpeg" width="100"><img src="https://i.imgur.com/mriUIJM.jpeg" width="100">
 
