@@ -35,7 +35,7 @@ Fair Mint likely originated with Counterparty itself where users sent Bitcoin to
 
 In 2023, Joe Looney introduced XCP-20's Fair Mint model (https://xcp20.wtf/) by setting-up a dispenser on a burn address and called it "XCP-20" as a tongue in cheek reference to BRC-20. Buyers, largely unaware that Counterparty already existed and this was not *new* in any way, sent massive amounts of Bitcoin to the burn address and received tokens in return. In this way, tokens got distributed, but the deployer was not directly enriched. The Bitcoin was burned.
 
-## The all-new Counterparty Auto Mint functionality (name is TBD)
+## The all-new Counterparty Fair Mint functionality
 
 As non-source address dispensers will no longer be possible as of Counterparty Core 10.3, as solution has been proposed to bring a "Fair Mint" model to Counterparty natively. See: https://github.com/CounterpartyXCP/counterparty-core/issues/1843
 
@@ -46,11 +46,11 @@ The Deployer mints a Bitcoin Stamp on a numeric asset. Let's say: <code>A5433937
 
 Source: https://stampchain.io/asset.html?asset=A5433937813514022010
 
-The Deployer then issues a sub-asset on the numeric: <code>A5433937813514022010.A5433937813514022010</code> and opens an Auto Mint of the supply.
+The Deployer then issues a sub-asset on the numeric: <code>A5433937813514022010.JOIN•THE•FLOCK</code> and opens a Fair Mint of the supply.
 
-Relevant meta-data (ticker, supply, etc...) will be added through an onchain JSON envelope using OLGA-encoding. In this way, <code>A5433937813514022010.A5433937813514022010</code> can be represented by something like <code>JOIN•THE•FLOCK</code> in wallets and explorers.
+Relevant meta-data (ticker, supply, etc...) will be added through an onchain JSON envelope using OLGA-encoding.
 
-Buyers can then "mint" the token through the Auto Mint. Holders can then, optionally, attach/detach the tokens to discrete UTXOs and sell the tokens using PSBT/Atomic Swap. They also have the option to re-sell the tokens in dispensers which saves having to split/attach to UTXOs (a common gripe about Runes).
+Buyers can then "mint" the token through the FAIR Mint. Holders can then, optionally, attach/detach the tokens to discrete UTXOs and sell the tokens using PSBT/Atomic Swap. They also have the option to re-sell the tokens in dispensers which saves having to split/attach to UTXOs (a common gripe about Runes).
 
 Glyphs-aware wallets/explorers will understand the relationship between the "Glyph" and the root numeric asset that its descended from and render the base64 art in a standardized container using HTML and recursion to the ancestory Stamp. An early mock-up of the container design can be found below.<br><br>
 
