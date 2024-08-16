@@ -48,9 +48,7 @@ Source: https://stampchain.io/asset.html?asset=A5433937813514022010
 
 The Deployer then issues a sub-asset on the numeric: <code>A5433937813514022010.JOIN•THE•FLOCK</code> and opens a Fair Mint of the supply.
 
-Relevant meta-data (ticker, supply, etc...) will be added through an onchain JSON envelope using OLGA-encoding.
-
-Buyers can then "mint" the token through the FAIR Mint. Holders can then, optionally, attach/detach the tokens to discrete UTXOs and sell the tokens using PSBT/Atomic Swap. They also have the option to re-sell the tokens in dispensers which saves having to split/attach to UTXOs (a common gripe about Runes).
+Buyers can then "mint" the token through the Fair Mint. Holders can then, optionally, attach/detach the tokens to discrete UTXOs and sell the tokens using PSBT/Atomic Swap. They also have the option to re-sell the tokens in dispensers which saves having to split/attach to UTXOs (a common gripe about Runes).
 
 Glyphs-aware wallets/explorers will understand the relationship between the "Glyph" and the root numeric asset that its descended from and render the base64 art in a standardized container using HTML and recursion to the ancestory Stamp. An early mock-up of the container design can be found below.<br><br>
 
